@@ -29,7 +29,6 @@ document.querySelector("#endeavor").src = veritcalAPI+uuidBundle[2]+veritcalImg;
 document.querySelector("#infantry").src = veritcalAPI+uuidBundle[3]+veritcalImg;
 document.querySelector("#blastx").src = veritcalAPI+uuidBundle[4]+veritcalImg;
 
-
 function changeBundle(num){
     bundle.getBundle(uuidBundle[num]);
 }
